@@ -1,5 +1,5 @@
-#Multi-Threaded Port Scanner
-#Overview
+Multi-Threaded Port Scanner
+Overview
 
 This project is a Python-based multi-threaded TCP port scanner that identifies open ports on a target system. The tool scans a range of ports concurrently using multiple threads, making the scanning process significantly faster than a traditional sequential port scanner.
 
@@ -7,7 +7,7 @@ The program attempts to establish a TCP connection with each port on the target 
 
 This project demonstrates basic network reconnaissance techniques, socket programming, and concurrent execution using threading.
 
-#Features
+Features
 
 Multi-threaded port scanning for faster execution
 
@@ -37,7 +37,7 @@ Command-line arguments (sys)
 
 Date and time tracking (datetime)
 
-#How It Works
+How It Works
 
 The user provides a target IP address or domain name.
 
@@ -51,13 +51,13 @@ If the connection succeeds, the port is marked as open.
 
 After all ports are scanned, the program prints the list of open ports.
 
-#Usage
+Usage
 
 Run the scanner using a command-line argument:
 
 python scanner.py <target_ip_or_domain>
 
-#Example:
+Example:
 
 python scanner.py scanme.nmap.org
 
@@ -90,6 +90,6 @@ Managing threads with queues
 
 Basic network security reconnaissance techniques
 
-#Disclaimer
+Disclaimer
 
 This tool is intended for educational purposes only. Only scan systems that you own or have permission to test.
